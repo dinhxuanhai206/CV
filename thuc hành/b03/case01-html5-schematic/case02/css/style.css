@@ -1,0 +1,39 @@
+:root{
+    --margin-10: 10px;
+}
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 100px auto;
+    background-color: brown;
+    width: 800px;
+
+}
+p::first-letter {
+    font-size: 200%;
+    color: gold;
+}
+p:nth-child(even){
+    background-color: aqua;
+}
+p:nth-child(odd){
+    background-color: rgb(37, 65, 226);
+}
+.row{
+    
+    font-size: 0;
+    margin-left: calc(-1 * var(--margin-10));
+    margin-right: calc(-1 * var(--margin-10));
+}
+.row-1{
+    background-color: green;
+    width: calc(25% - (2 *var(--margin-10)));
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    margin: var(--margin-10);
+    
+}

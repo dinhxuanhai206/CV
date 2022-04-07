@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.boxA{
+    background-color: #271c68;
+    color: #f9f8f4;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    line-height: 200px;
+    margin: 50px auto;
+}
+.boxA::before{
+    content: '';
+    background-color: #d7da19;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    z-index: -1;
+   
+
+}
+.boxA::after{
+    content: '';
+    background-color: #06f08f;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
+    z-index: -1;
+    
+}

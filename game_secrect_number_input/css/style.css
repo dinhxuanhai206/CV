@@ -1,0 +1,17 @@
+.btn-number {
+    font-size: 30px;
+    border: 1px solid #212529;
+    background-color: #f8f9fa;
+}
+
+.times-item {
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.times-item.active {
+    background: #dc3545;
+}

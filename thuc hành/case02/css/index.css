@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    padding: 20px;
+}
+.box h1{
+    background-color: green;
+    width: 500px;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+
+}
+.box p{  
+    margin: 20px;
+    color: blue;
+    text-align: justify;
+}
+.hightline{
+    background-color: yellow;
+}
+body{
+    background-image: url(../image/back.jpg) repeat y;
+}

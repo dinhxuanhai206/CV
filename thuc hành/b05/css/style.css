@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    margin: 20px auto;
+    width: 400px;
+    color: aliceblue;
+}
+.dropdown{
+    position: relative;
+    width: 375px;
+}
+.dropdown-select,
+.dropdown-item{
+    background-color: red;
+    padding: 20px;
+    transition: 0.4s;
+
+    
+}
+.dropdown-list{
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: calc(100% + 10px);
+    opacity: 0;
+}
+.dropdown:hover  .dropdown-list{
+   display: block;
+   transform: 0.4s;
+   opacity: 1;
+  
+}
+.fa{
+    float: right;
+}

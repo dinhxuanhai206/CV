@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+hr{
+    margin: 5px;
+}
+.slidebar ul{
+    text-align: center;
+}
+.slidebar li{
+    display: inline-block;
+    margin: 20px 40px;
+}
+.slidebar a{
+    text-decoration: none;
+}
+.header{
+    text-align: center;
+    margin-top: ;
+}
+.left-slidebar{
+    float: left;
+}
+.right-slidebar{
+    float: right;
+}
+.content{
+    float: left;
+    width: 600px;
+    margin: auto 50px;
+}
+.foother{
+    clear: both;
+    text-align: center;
+    border-top: 2px solid black;
+    padding: 10px;
+} 

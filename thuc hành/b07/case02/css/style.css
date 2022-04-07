@@ -1,0 +1,16 @@
+.box{
+    width: 150px;
+    display: inline-block;
+    background: blue;
+    vertical-align: top;
+}
+
+.bg-red{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+.bg-gold{
+    background-color: gold;
+    color: black;
+}

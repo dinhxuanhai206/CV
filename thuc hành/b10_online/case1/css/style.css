@@ -1,0 +1,48 @@
+html {
+	min-height: 100%;
+	font-family: 'Nunito', sans-serif;
+}
+
+body {
+	background: #7db4fc;
+	line-height: 1.5;
+}
+
+h1 {
+	font-weight: 200;
+	font-size: 3rem;
+	color: white;
+	text-align: center;
+}
+
+.acordeon {
+	max-width: 400px;
+	background: white;
+	margin: 0 auto;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.acordeon-cabecera {
+	border-bottom: 1px solid #DDE0E7;
+	color: #222222;
+	cursor: pointer;
+	font-weight: 600;
+	padding: 1.5rem;
+  background:#f6f7f9;
+}
+
+.acordeon-cabecera:hover {
+	background: #fdf8d7;
+}
+
+.acordeon-cabecera.active {
+	background-color: #fdf8d7;
+}
+
+.acordeon-contenido {
+	display: none;
+	border-bottom: 1px solid #DDE0E7;
+	background: #fff;
+	padding: 1.4rem;
+	color: #4a5666;
+}

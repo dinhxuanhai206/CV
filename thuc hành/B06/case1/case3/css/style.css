@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img-container {
+    display: flex;
+    max-width: 700px;
+    height: 400px;
+    
+  }
+  
+  
+.imgs{
+    flex: 1;
+    
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.imgs img{
+    vertical-align: middle;
+    object-fit: cover;
+    height: 100%;
+}
+.imgs{
+    flex-basis: 65%;
+    transition: 0.5s;
+}
