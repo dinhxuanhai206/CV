@@ -1,0 +1,66 @@
+.watchVideo{
+  width: 100vw;
+  background-color: rgb(23, 24, 24);
+  .watch {
+    display: flex;
+    justify-content: center;
+    
+    .back {
+      display: flex;
+      align-items: center;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      color: white;
+      cursor: pointer;
+      z-index: 2;
+    }
+    .item-left{
+      margin-right: 50px;
+    }
+    .video{
+      width: 100%;
+  }
+  .auth-items{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 60%;
+  }
+  .item{
+    justify-content: center;
+    width: 20%;
+    margin: 40px 22px;
+    
+  }
+  img{
+    
+    width: 40%;
+  }
+  .auth-date{
+    text-align: center;
+    padding-top: 10px;
+  }
+  .title{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 10px;
+    color: white;
+  }
+  .desc{
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+  }
+}
+.comment{
+  .comments{
+    margin-top: 200px;
+    margin-left: 30px;
+    width: 70%;
+    color: rgb(241, 112, 6);
+  }
+  }
+}
+
+
